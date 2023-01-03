@@ -1,0 +1,162 @@
+/* Página "Home" */
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: relative;
+}
+
+#logo{
+    width: 100px;
+    padding: 20px;
+}
+
+.titulos{
+    color: yellow;
+    font-size: 18px;
+    text-align: center;
+}
+
+.textos{
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#menu{
+    list-style-type: none;
+    text-align: center;
+    line-height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.nav{
+    display: inline-block;
+    padding: 30px;
+    color: yellow;
+}
+
+.nav:active{
+    color: yellow;
+}
+
+.nav:visited{
+    color: yellow;
+}
+
+.nav:hover{
+    color: red;
+}
+
+#section-index{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    overflow: auto;
+}
+
+#quem-somos{
+    float: left;
+    width: 45%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 30px;
+    line-height: 100%;
+    border: 3px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: yellow;
+    background-color: #363636;
+}
+
+#img-quem-somos{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#reservas{
+    float: right;
+    width: 45%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 30px;
+    line-height: 100%;
+    overflow: scroll;
+    border: 3px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: yellow;
+    background: #363636;
+}
+
+#topicos{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.links:active{
+    color: white;
+}
+
+.links:visited{
+    color: white;
+}
+
+.links:hover{
+    color:red;
+}
+
+#rodape{
+    padding: 20px;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Página "Cardápio" */
+#tabela-cardapio{
+    width: 80%;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: yellow;
+}
+
+.img-cardapio{
+    width: 200px;
+}
+
+/* Página "Mais Informações" */
+#pagina-informacoes{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.img-unidades{
+    width: 300px;
+}
